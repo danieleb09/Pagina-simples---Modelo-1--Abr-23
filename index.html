@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pagina Inicial</title>
+     <link rel="shortcut icon" href="imagens/favicon1.ico">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/main.js"></script>
+    <noscript> É necessário habilitar o javascript para que esta página funcione normalmente</noscript>
+       <style>
+            *{
+                box-sizing: border-box;
+            }
+
+            body{
+
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            header{
+
+                background-color: #aaa6aa;
+                padding: 60px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+
+            nav{
+
+                    float: left;
+                    width: 30%;
+                    height: 600px; /* only for demonstration, should be removed */
+                    background: #ccc;
+                    padding: 20px;
+
+            }
+
+            nav ul{
+                    list-style-type: none;
+                    padding: 0;
+            }
+
+            article{
+
+                    float: left;
+                    padding: 20px;
+                    width: 70%;
+                    background-color: #f1f1f1;
+                    height: 550px;
+            }
+
+            section{
+
+                content: "";
+                display: table;
+                clear: both;
+  
+            }
+
+
+            footer{
+
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            }
+
+            @media (max-width: 600px) {
+            nav, article {
+            width: 100%;
+            height: auto;
+  }
+}
+
+
+
+
+       </style>
+     
+</head>
+<body>
+    <header>
+        Página de Teste
+    </header>
+    
+    <section>
+        <nav> 
+            <ul>
+                <li> Menu </li>
+                <li> Tipo 1 </li>
+                <li> Tipo 2 </li>
+                <li> Tipo 3 </li>
+            </ul>
+            
+
+        </nav>
+
+    <article>
+            <h1> Texto1 </h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nemo reprehenderit ut exercitationem fugiat? Possimus ducimus dolores placeat quibusdam accusantium nam, id nemo vero modi vel, obcaecati amet odit ullam.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates earum quod ratione perferendis assumenda sed harum eveniet ipsa. Molestias suscipit facilis odio eius? Accusantium omnis vel voluptatum est doloribus.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ut omnis, sit provident voluptatem fugiat, necessitatibus, labore minus rem veniam impedit dicta nisi veritatis repellat eius iure quasi delectus blanditiis.</p>
+        
+    </article>
+    </section>
+    <footer>
+        
+        Footer
+    
+    </footer>
+</body>
+</html>
